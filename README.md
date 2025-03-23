@@ -21,7 +21,7 @@ Key Features & Architecture:
 2. Data Binding (Two-Way Binding with MVVM)
   - MVVM Pattern: The app follows the MVVM (Model-View-ViewModel) pattern, which helps in abstracting the UI (View) from the business logic (ViewModel), making the application easier to maintain and test.
   - Two-Way Data Binding: The application implements two-way data binding to ensure dynamic and synchronized updates between the ViewModel and the View. Changes made in the UI are immediately reflected in the ViewModel, and updates in the ViewModel are displayed in the UI.
-The controls are populated with lists from the ViewModels, and the selected item are bound to properties in the ViewModels for real-time updates.
+The controls are populated with lists from the ViewModels, and the selected items are bound to properties in the ViewModels for real-time updates.
 
 3. DbContext Configuration & Entity Framework 6 (EF 6)
 DbContext: The app uses Entity Framework 6 (EF 6) as the ORM (Object-Relational Mapping) tool to facilitate interaction with the underlying SQL database. The DbContext manages the database entities and handles CRUD operations for them. The configuration is based on the Fluent API in the OnModelCreating method of the DbContext and the ObservableCollection for managing data collections with automatic UI updates.
