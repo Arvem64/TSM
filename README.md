@@ -1,4 +1,4 @@
-Training Sessions Manager Prototype
+Training Sessions Manager App
 
 *****************************************
 Technologies Used:
