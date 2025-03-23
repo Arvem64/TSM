@@ -1,8 +1,6 @@
 Training Sessions Manager Prototype
 
 *****************************************
-The Training Sessions Manager App is an application designed to manage and track training. Built using .NET 8.0, C#, and XAML, the application leverages Entity Framework 6 (EF 6) for seamless data access and management. By implementing the Repository pattern and MVVM architecture, the app ensures maintainability, scalability, and a clear abstraction of concerns between the UI and business logic.
-
 Technologies Used:
  - .NET 8.0 Framework      
  - C#, XAML      
