@@ -11,7 +11,8 @@ Technologies Used:
 
 Overview :
 The Training Sessions Manager App (Prototype) is designed to manage training sessions efficiently. Built with .NET 8.0, C#, and XAML, the application integrates Entity Framework 6 (EF 6) for data access. It implements key design patterns such as MVVM (Model-View-ViewModel) and Unit of Work, ensuring a clean architecture that promotes scalability and maintainability. The application provides a dynamic and responsive user experience by leveraging two-way data binding to synchronize the ViewModel and View.
-Key Features & Architecture
+
+Key Features & Architecture:
 
 1. Unit of Work & IRepositories
  - Unit of Work Pattern: The app utilizes the Unit of Work (UoW) pattern to manage transactions and interactions across multiple repositories, ensuring consistency during data access and modifications. This design helps in reducing repetitive code and promoting cleaner code management.
