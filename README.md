@@ -30,3 +30,7 @@ Achievements
   - Utilized MVVM architecture to promote abstraction of concerns and improved testability, enhancing long-term maintainability.
   - Leveraged two-way data binding between XAML controls (such as ComboBox and DataGridView) and the ViewModel, ensuring that the UI reflects updates in real-time.
   - Configured Entity Framework 6 (EF 6) for database interaction, enabling efficient data management and support for linking the entities.
+
+The Setup is located in ~LocalFile~\TrainingSessions\TrainingSessions\bin\Release\net8.0-windows.
+
+TSM!
