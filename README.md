@@ -15,7 +15,7 @@ The Training Sessions Manager App (Prototype) is designed to manage training ses
 NB : The business logic is to be customized based on one's project's fixed objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
 
 Recommendations :
-- Using the View-Model pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the View Model in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridView's DataContext in the XAML code.
+- Using the View-Model pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridViews' DataContexts of each window in the XAML code.
 - Avoid directly inheriting the Model classes from the INotifyPropertyChanged interface, and instead, adopt the ViewModel approach.
 - Implement and call generic methods for repetitive tasks to clean up the code and improve maintainability.
 - The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (the purpose is allowing users to visualize the results in a User-Friendly Interface rather than using the C# Console).
