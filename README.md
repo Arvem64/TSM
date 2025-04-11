@@ -18,7 +18,7 @@ NB : The business logic is to be customized based on one's project's fixed objec
 - Using the View-Model pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the View Model in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridView's DataContext in the XAML code.
 - Avoid directly inheriting the Model class from the INotifyPropertyChanged interface, and instead, adopt the ViewModel approach.
 - Implement and call generic methods for repetitive tasks to clean up the code and improve maintainability.
-- The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (the purpose was to allow users to visualize teh results in a Friendly-User Interface rather than using the C# Console).
+- The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (the purpose was to allow users to visualize the results in a User-Friendly Interface instead of using the C# Console).
 - Add an Authentication Window as the main entry point (which involves modifying the StartupUri in App.xaml) and ensure the correct privileges are set for each authenticated and authorized user.
 
 Key Features & Architecture:
