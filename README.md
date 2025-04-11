@@ -14,6 +14,13 @@ The Training Sessions Manager App (Prototype) is designed to manage training ses
 
 NB : The business logic is to be customized based on one's project's fixed objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
 
+Recommendations : 
+- Using the View-Model Schheme throughout the implementation will enhance the code's efficiency and robusteness. For instance, wrapping the ObservableCollection of the View-Model pattern in a CollectionViewSource instead of the Model's ObservableCollection. This will entail modifying the Data Source of the DataGridViews in XAML Code .
+- Disabling any Model Class's inheritance from the INotifyPropertyChanged Interface and settling for the ViewModel Approach.
+- Setting and calling generic methods for repetitive tasks to better clean up of the code.
+- 
+- Adding an Authentification Window as the main one (leading to modifying the StartupUri in the App.xaml) and setting the rights privileges to each authentified and authorized user.
+
 Key Features & Architecture:
 
 1. Unit of Work & IRepositories
