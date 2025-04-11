@@ -20,7 +20,7 @@ Recommendations :
 - Implement and call generic methods for repetitive tasks to clean up the code and improve maintainability.
 - The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (The purpose of utilizing Two-Way Data Binding is to allow users to visualize the results in a user-friendly interface rather than using the C# console, as this model is just intended for testing).
 - Add an Authentication Window as the main page (which involves modifying the StartupUri in App.xaml) and ensure the correct privileges are set for each authenticated and authorized user.
-- Implementing regex patterns to validate user input.
+- Implementing Regex patterns to validate user input.
 
 Key Features & Architecture:
 
