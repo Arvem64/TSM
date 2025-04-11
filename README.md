@@ -7,7 +7,7 @@ Technologies Used:
  - Entity Framework 6 (EF 6)     
  - MVVM Pattern      
  - Unit of Work & Repositories      
- - Two-Way Data Binding
+ - Two-Way Data Binding 
 
 Overview :
 The Training Sessions Manager App (Prototype) is designed to manage training sessions. Built with .NET 8.0, C#, and XAML, the application integrates Entity Framework 6 (EF 6) for data access. It implements key design patterns such as MVVM (Model-View-ViewModel) and Unit of Work, ensuring a clean architecture that promotes scalability and maintainability. The application provides a dynamic and responsive user experience by leveraging two-way data binding to synchronize the ViewModel and View. 
@@ -15,10 +15,10 @@ The Training Sessions Manager App (Prototype) is designed to manage training ses
 NB : The business logic is to be customized based on one's project's fixed objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
 
 Recommendations :
-- Using the View-Model pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridViews' DataContexts of each window in the XAML code.
+- Using the ViewModel pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridViews' DataContexts of each window in the XAML code.
 - Avoid directly inheriting the Model classes from the INotifyPropertyChanged interface, and instead, adopt the ViewModel approach.
 - Implement and call generic methods for repetitive tasks to clean up the code and improve maintainability.
-- The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (the purpose is allowing users to visualize the results in a User-Friendly Interface rather than using the C# Console).
+- The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (The purpose of utilizing Two-Way Data Binding is to allow users to visualize the results in a user-friendly interface rather than using the C# console, as this model is intended for testing and it's a quick wayy to implement the solution).
 - Add an Authentication Window as the main page (which involves modifying the StartupUri in App.xaml) and ensure the correct privileges are set for each authenticated and authorized user.
 
 Key Features & Architecture:
