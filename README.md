@@ -18,7 +18,7 @@ Key Features & Architecture:
  - Unit of Work Pattern: The app utilizes the Unit of Work (UoW) pattern to manage transactions and interactions across multiple repositories, ensuring consistency during data access and modifications. This design helps in reducing repetitive code and promoting cleaner code management.
  - Repositories: Custom IRepositories provide abstraction for CRUD operations with the database, allowing efficient querying and data manipulation through Entity Framework 6 (EF 6).
 
-2. Data Binding (Two-Way Binding with MVVM) for a quick implementation serving test purposes
+2. Data Binding (Two-Way Binding with MVVM) for a quick implementation serving just test purposes
   - MVVM Pattern: The app follows the MVVM (Model-View-ViewModel) pattern, which helps in abstracting the UI (View) from the business logic (ViewModel), making the application easier to maintain and test.
   - Two-Way Data Binding: The application implements two-way data binding to ensure dynamic and synchronized updates between the ViewModel and the View. Changes made in the UI are immediately reflected in the ViewModel, and updates in the ViewModel are displayed in the UI.
 The controls are populated with lists from the ViewModels, and the selected items are bound to properties in the ViewModels for real-time updates.
