@@ -15,7 +15,7 @@ The Training Sessions Manager App (Prototype) is designed to manage training ses
 Key Features & Architecture:
 
 1. Unit of Work & IRepositories
- - Unit of Work Pattern: The app utilizes the Unit of Work (UoW) pattern to manage transactions and interactions across multiple repositories, ensuring consistency during data access and modifications. This design helps in reducing repetitive code and promoting cleaner code management.
+ - Unit of Work Pattern: The app utilizes the Unit of Work (UoW) pattern to manage transactions and interactions across multiple repositories, ensuring consistency during data access and modifications. This scheme helps in reducing repetitive code and promoting cleaner code management.
  - Repositories: Custom IRepositories provide abstraction for CRUD operations with the database, allowing efficient querying and data manipulation through Entity Framework 6 (EF 6).
 
 2. Data Binding (Two-Way Binding with MVVM) for a quick implementation serving just test purposes
