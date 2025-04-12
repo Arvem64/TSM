@@ -44,5 +44,6 @@ Recommendations :
 - The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (The purpose of utilizing Two-Way Data Binding is to allow users to visualize the results in a user-friendly interface rather than using the C# console, as this model is just intended for testing).
 - Add an Authentication Window as the main page (which involves modifying the StartupUri in App.xaml) and ensure the correct privileges are set for each authenticated and authorized user.
 - Implementing Regex patterns to validate user input.
+- Installing the BCrypt NuGet package to hash the passwords of user accounts.
 
 TSM!
