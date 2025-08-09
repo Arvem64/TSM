@@ -18,7 +18,7 @@ Key Features & Architecture:
  - Unit of Work Pattern: The app utilizes the Unit of Work (UoW) pattern to manage transactions and interactions across multiple repositories, ensuring consistency during data access and modifications. This scheme helps in reducing repetitive code and promoting cleaner code management.
  - Repositories: Custom IRepositories provide abstraction for CRUD operations with the database, allowing efficient querying and data manipulation through Entity Framework 6 (EF 6).
 
-2. Data Binding (Two-Way Binding with MVVM) for a quick implementation serving just test purposes
+2. Data Binding (Two-Way Binding with MVVM) for a quick implementation serving just test purposes:
   - MVVM Pattern: The app follows the MVVM (Model-View-ViewModel) pattern, which helps in abstracting the UI (View) from the business logic (ViewModel), making the application easier to maintain and test.
   - Two-Way Data Binding: The application implements two-way data binding to ensure dynamic and synchronized updates between the ViewModel and the View. Changes made in the UI are immediately reflected in the ViewModel, and updates in the ViewModel are displayed in the UI.
 The controls are populated with lists from the ViewModels, and the selected items are bound to properties in the ViewModels for real-time updates.
@@ -38,7 +38,7 @@ The Setup is located in ~LocalFolder~\TrainingSessions\TrainingSessions\bin\Rele
 NB : The business logic is to be customized based on one's project's fixed objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
 
 Recommendations :
-- Using the ViewModel pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridViews' DataContexts of each window in the XAML code.
+- Using the ViewModel pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridViews' DataContext of each window in the XAML code.
 - Avoid directly inheriting the Model classes from the INotifyPropertyChanged interface, and instead, adopt the ViewModel approach.
 - Implement and call generic methods for repetitive tasks to clean up the code and improve maintainability.
 - The One-Way Data Binding approach would be a better blueprint to apply, particularly in production environments (The purpose of utilizing Two-Way Data Binding is to allow users to visualize the results in a user-friendly interface rather than using the C# console, as this model is just intended for testing).
