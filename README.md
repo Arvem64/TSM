@@ -35,7 +35,7 @@ Achievements
 The Setup is located in ~LocalFolder~\TrainingSessions\TrainingSessions\bin\Release\net8.0-windows folder.
 
 
-NB : The business logic is to be customized based on one's project's fixed objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
+NB : The business logic is to be customized based on project's defined objectives. The goal here is to shed light on the working principle of Entity Framework and test it.
 
 Recommendations :
 - Using the ViewModel pattern throughout the implementation will enhance the code's efficiency and robustness. For instance, wrap the ObservableCollection of the ViewModel in a CollectionViewSource instead of using the Model's ObservableCollection, or simply use the ViewModel's collection. This will require modifying the DataGridView's DataContext on each window in the XAML code.
