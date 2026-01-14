@@ -3,14 +3,14 @@ Training Sessions Manager App
 *****************************************
 Technologies Used:
  - .NET 8.0 Framework      
- - C#, XAML      
- - Entity Framework 6 (EF 6)     
+ - C#, XAML
+ - Entity Framework 6 (EF 6)
  - MVVM Pattern      
  - Unit of Work & Repositories      
  - Two-Way Data Binding 
 
 Overview :
-The Training Sessions Manager App (Prototype) is designed to manage training sessions. Built with .NET 8.0, C#, and XAML, the application integrates Entity Framework 6 (EF 6) for data access. It implements key design patterns such as MVVM (Model-View-ViewModel) and Unit of Work, ensuring a clean architecture that promotes scalability and maintainability. The application provides a dynamic and responsive user experience by leveraging two-way data binding to synchronize the ViewModel and View. 
+The Training Sessions Manager App (MVP) is designed to manage training sessions. Built with .NET 8.0, C#, and XAML, the application integrates Entity Framework 6 (EF 6) for data access. It implements key design patterns such as MVVM (Model-View-ViewModel) and Unit of Work, ensuring a clean architecture that promotes scalability and maintainability. The application provides a dynamic and responsive user experience by leveraging two-way data binding to synchronize the ViewModel and View. 
 
 Key Features & Architecture :
 
